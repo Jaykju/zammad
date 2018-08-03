@@ -170,7 +170,7 @@ function start_backup_message () {
 }
 
 function start_restore_message () {
-    echo -e "\n# Zammad restored started - $(date)!\n"
+    echo -e "\n# Zammad restore started - $(date)!\n"
 }
 
 function finished_backup_message () {
